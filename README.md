@@ -44,6 +44,7 @@ La página incluye:
 
 ## Estructura del proyecto
 
+```text
 Mortal-Store/
 ├── css/
 │   └── styles.css
@@ -52,6 +53,7 @@ Mortal-Store/
 │   ├── minecraft.jpg
 │   └── fc26.jpg
 └── index.html
+```
 
 ## Validación
 
