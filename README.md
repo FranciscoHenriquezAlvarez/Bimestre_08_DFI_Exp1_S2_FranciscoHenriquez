@@ -35,13 +35,7 @@ La página incluye:
 - Pie de página con información de contacto y redes sociales.
 - Diseño responsivo para diferentes tamaños de pantalla.
 
-  ## Sitio publicado
-
-El sitio web se encuentra publicado mediante GitHub Pages y puede ser visualizado en el siguiente enlace:
-
-https://franciscohenriquezalvarez.github.io/Bimestre_08_DFI_Exp1_S2_FranciscoHenriquez/
-
-## Tecnologías utilizadas
+ ## Tecnologías utilizadas
 
 - HTML5
 - CSS3
