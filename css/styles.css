@@ -1,0 +1,281 @@
+/* ========================================
+   VARIABLES GENERALES
+======================================== */
+
+:root {
+    --color-principal: #111827;
+    --color-secundario: #dc2626;
+    --color-fondo: #f3f4f6;
+    --color-tarjeta: #ffffff;
+    --color-texto: #1f2937;
+    --color-claro: #ffffff;
+    --color-borde: #d1d5db;
+}
+
+
+/* ========================================
+   CONFIGURACIÓN GENERAL
+======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* ========================================
+   ENCABEZADO
+======================================== */
+
+#inicio {
+    background-color: var(--color-principal);
+    color: var(--color-claro);
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    border-bottom: 5px solid var(--color-secundario);
+}
+
+#inicio h1 {
+    margin: 0;
+
+    font-size: 42px;
+}
+
+#inicio p {
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    font-size: 18px;
+}
+
+
+/* ========================================
+   MENÚ DE NAVEGACIÓN
+======================================== */
+
+.menu {
+    background-color: #1f2937;
+
+    padding: 12px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+
+    margin: 0 15px;
+}
+
+.menu a {
+    color: var(--color-claro);
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    padding: 8px 12px;
+}
+
+.menu a:hover {
+    background-color: var(--color-secundario);
+
+    border-radius: 5px;
+}
+
+
+/* ========================================
+   CONTENIDO PRINCIPAL
+======================================== */
+
+main {
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+    padding: 20px;
+}
+
+#productos h2 {
+    text-align: center;
+
+    font-size: 30px;
+
+    margin-bottom: 30px;
+}
+
+
+/* ========================================
+   LISTA DE PRODUCTOS
+======================================== */
+
+.lista-productos {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+
+    gap: 25px;
+
+    justify-content: center;
+}
+
+
+/* ========================================
+   TARJETAS DE PRODUCTOS
+======================================== */
+
+.producto {
+    background-color: var(--color-tarjeta);
+
+    width: 33%;
+
+    padding: 20px;
+
+    border: 1px solid var(--color-borde);
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.producto h3 {
+    color: var(--color-principal);
+
+    font-size: 22px;
+
+    margin-top: 0;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 250px;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    border: 3px solid var(--color-borde);
+
+    border-radius: 8px;
+}
+
+.producto p {
+    margin-top: 15px;
+
+    text-align: left;
+}
+
+
+/* ========================================
+   SELECTOR AVANZADO NTH-CHILD
+======================================== */
+
+.producto:nth-child(2) {
+    border: 2px solid #16a34a;
+}
+
+
+/* ========================================
+   INTERACCIÓN PRODUCTOS
+======================================== */
+
+.producto:hover {
+    border-color: var(--color-secundario);
+}
+
+
+/* ========================================
+   PIE DE PÁGINA
+======================================== */
+
+#contacto {
+    background-color: var(--color-principal);
+    color: var(--color-claro);
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+    margin-top: 40px;
+
+    border-top: 5px solid var(--color-secundario);
+}
+
+#contacto h2 {
+    margin-top: 0;
+}
+
+#contacto a {
+    color: #fbbf24;
+}
+
+.redes a {
+    display: inline-block;
+
+    margin: 5px 10px;
+
+    padding: 8px 15px;
+
+    border: 1px solid #fbbf24;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.redes a:hover {
+    background-color: #fbbf24;
+
+    color: var(--color-principal);
+}
+
+
+/* ========================================
+   DISEÑO RESPONSIVO
+======================================== */
+
+@media (max-width: 768px) {
+
+    .lista-productos {
+        flex-direction: column;
+    }
+
+    .producto {
+        width: 100%;
+    }
+
+    .menu li {
+        display: block;
+
+        margin: 8px 0;
+    }
+
+    #inicio h1 {
+        font-size: 32px;
+    }
+
+}
