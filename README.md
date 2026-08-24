@@ -35,6 +35,12 @@ La página incluye:
 - Pie de página con información de contacto y redes sociales.
 - Diseño responsivo para diferentes tamaños de pantalla.
 
+  ## Sitio publicado
+
+El sitio web se encuentra publicado mediante GitHub Pages y puede ser visualizado en el siguiente enlace:
+
+https://franciscohenriquezalvarez.github.io/Bimestre_08_DFI_Exp1_S2_FranciscoHenriquez/
+
 ## Tecnologías utilizadas
 
 - HTML5
@@ -64,3 +70,9 @@ El archivo HTML fue revisado utilizando W3C Nu HTML Checker, obteniendo el resul
 La hoja de estilos CSS fue revisada mediante un validador W3C, obteniendo el resultado:
 
 "Document checking completed. No errors or warnings to show."
+
+## Sitio publicado
+
+El sitio web se encuentra publicado mediante GitHub Pages y puede ser visualizado en el siguiente enlace:
+
+https://franciscohenriquezalvarez.github.io/Bimestre_08_DFI_Exp1_S2_FranciscoHenriquez/
