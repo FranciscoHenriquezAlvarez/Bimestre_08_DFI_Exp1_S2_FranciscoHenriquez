@@ -45,8 +45,6 @@ La página incluye:
 ## Estructura del proyecto
 
 Mortal-Store/
-├── css/
-│   └── styles.css
 ├── img/
 │   ├── mortal-kombat.jpg
 │   ├── minecraft.jpg
